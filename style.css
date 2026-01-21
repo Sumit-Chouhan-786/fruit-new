@@ -37,6 +37,9 @@ Version: 1.0
 .navbar-toggler{
     margin-top: 33px !important;
 }
+.navbar-header{
+    max-height: 80px;
+}
 .farm-navbar-area.sticky {
     left: 0;
     position: fixed;
@@ -48,7 +51,7 @@ Version: 1.0
 .farm-navbar-area.sticky .menu li a {
     line-height: 80px;
 }
-.farm-navbar-area.sticky .navbar-brand {
+.farm-navbar-area.sticky .navbar-brand {git
     width: 120px;
 }
 nav.navbar {
@@ -58,7 +61,8 @@ nav.navbar {
 }
 .navbar-brand {
     padding: 0;
-    width: 150px;
+    height: auto;
+    width: 75px;
     top: 0;
 }
 .menu li a {
@@ -68,7 +72,7 @@ nav.navbar {
     padding: 0 20px 0 0 !important;
     margin-right: 20px;
     position: relative;
-    line-height: 100px;
+    line-height: 80px;
     transition: .4s;
 }
 .fa-pencil-square-o {
