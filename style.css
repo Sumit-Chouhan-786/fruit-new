@@ -34,11 +34,12 @@ Version: 1.0
     z-index: 100;
     transition: 2s;
 }
-.navbar-toggler{
-    margin-top: 33px !important;
+
+.navbar .navbar-toggler{
+    margin-top: 25px !important;
 }
 .navbar-header{
-    max-height: 80px;
+    max-height: 100px;
 }
 .farm-navbar-area.sticky {
     left: 0;
@@ -55,14 +56,14 @@ Version: 1.0
     width: 120px;
 }
 nav.navbar {
-    background-color: #258c25 !important;
+    background-color: #0b3720 !important;
     border-radius: 0;
-    padding: 0;
+    padding: 10px 0;
 }
 .navbar-brand {
     padding: 0;
     height: auto;
-    width: 75px;
+    width: 100px;
     top: 0;
 }
 .menu li a {
@@ -1108,3 +1109,23 @@ select.porpose-select option {
             color: #ff4301;
             scale: 1.2;
         }
+
+        /* whatspp icon  */
+        .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    z-index: 999;
+}
+
+.whatsapp-icon:hover {
+    background-color: #1ebe5d;
+    color: #fff;
+}
