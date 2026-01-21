@@ -49,14 +49,13 @@ Version: 1.0
     width: 140px;
 }
 nav.navbar {
-    background: #141414 none repeat scroll 0 0;
+    background-color: #258c25 !important;
     border-radius: 0;
     padding: 0;
 }
 .navbar-brand {
     padding: 0;
     width: 180px;
-    position: absolute;
     top: 0;
 }
 .menu li a {
@@ -1069,7 +1068,3 @@ select.porpose-select option {
     background: #fff url('img/loader.gif') no-repeat center center;
 }
 /* END of Pre Loader Style */
-/* new custom css */
-.common_shadow{
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
